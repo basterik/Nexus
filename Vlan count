@@ -1,0 +1,7 @@
+name = input("Enter file:")
+handle = open(name)
+k = 0
+for line in handle:
+  if line[0] != ' ':
+    k = k+1
+print (k)
